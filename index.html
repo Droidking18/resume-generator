@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Resume</title>
+    <!-- pull json -->
+    <script src="config.json"></script>
+    <script src="injecter.js"></script>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.js"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body lang="en">
+    <div class="top-bar"></div>
+    <section id="main">
+      <header id="title">
+        <h1 id="name"></h1>
+        <span class="subtitle" id="pos-title"></span>
+      </header>
+      <section class="main-block" id="experiences">
+        <h2><i class="fa fa-suitcase"></i> Experiences</h2>
+      </section>
+      <section class="main-block concise" id="education">
+        <h2><i class="fa fa-graduation-cap"></i> Education</h2>
+      </section>
+      <section class="main-block concise" id="certs">
+        <h2><i class="fa fa-folder-open"></i>Certs</h2>
+      </section>
+    </section>
+    <aside id="sidebar">
+      <div class="side-block" id="contact">
+        <h1 class="bluetext">Contact Info</h1>
+        <ul>
+          <li id="github"><i class="fab fa-github"></i></li>
+          <li id="linkedin">
+            <i class="fab fa-linkedin"></i>
+          </li>
+          <li id="email"><i class="fa fa-envelope"></i></li>
+          <li id="phone"><i class="fa fa-phone"></i></li>
+          <li id="location"><i class="fa fa-globe"></i></li>
+        </ul>
+      </div>
+      <div class="side-block" id="skills">
+        <h1 class="bluetext">Skills</h1>
+      </div>
+      <div class="side-block" id="languages">
+        <h1 class="bluetext">Languages and Tools</h1>
+      </div>
+      <div class="side-block whitetext" id="disclaimer">
+        This r&eacute;sum&eacute; was wholly typeset with HTML/CSS/JS &mdash;
+        using
+        <br />
+        github.com/Droidking18/resume-generator
+        <br />
+        (yes thats me)
+      </div>
+    </aside>
+  </body>
+  <script>
+    fetch("config.json")
+      .then((response) => response.json())
+      .then((data) => injectData(data));
+
+    // Inject the data into the DOM.
+    injectData(config);
+  </script>
+</html>

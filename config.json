@@ -1,0 +1,136 @@
+{
+  "name": "Dovi Kaplan",
+  "title": "Software Developer",
+  "experiences": [
+    {
+      "title": "Software Developer",
+      "workplace": "Vodacom",
+      "location": "Johannesburg, South Africa",
+      "dateFrom": "January 2020",
+      "description": [
+        "Primarily responsible for the MyVodacomApp, a React Native application that is used by over 4 million users.",
+        "Work on fixing bugs, implementing new features and journeys.",
+        "I have very minor experience with the backend, which is written in NodeJS, but my expertise lies in React Native.",
+        "We also work on some webapps, some of which are written in ReactJS, and other React Native for web.",
+        "Tools used include: Figma, React Native, React JS, BitBucket, AWS, TeamCity, Confluence, Jira, and more."
+      ]
+    },
+    {
+      "title": "Software Developer Intern",
+      "workplace": "Vodacom",
+      "location": "Johannesburg, South Africa",
+      "dateFrom": "January 2019",
+      "dateTo": "May 2019",
+      "description": [
+        "Intern on a team working to port over an app written in C# to ReactJS.",
+        "This specific project I worked on was an internal tool used in Vodacom Shops.",
+        "Tools used include: Figma, ReactJS, BitBucket, Confluence, Jira.",
+        "This was a four month internship. I was contracted there by BBD. The internship was cooridinated by WeThinkCode as part of my studies."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "University of London",
+      "location": "Correspondence, United Kingdom",
+      "dateFrom": "March 2021",
+      "description": [
+        "Currently studying a BSc in Computer Science.",
+        "The course is between 3 - 6 years long, at a pace chosen by the student.",
+        "I expect to finish the course in September 2024.",
+        "I'm doing it to fill in the gaps in my knowledge, and to learn more about the field."
+      ]
+    },
+    {
+      "title": "WeThinkCode_",
+      "location": "Johannesburg, South Africa",
+      "dateFrom": "January 2018",
+      "dateTo": "December 2019",
+      "description": [
+        "An intensive and accelerated 24 month software engineering course.",
+        "The course is divided into 4 semesters, each semester lasting 6 months.",
+        "The course also includes a two 4 month internship, which I completed at BBD/Vodacom.",
+        "The course is a mainly practical course, with a focus on learning by doing.",
+        "Languages learned include: C, C++, Java, JavaScript, HTML, CSS, SQL, Bash, PHP"
+      ]
+    },
+    {
+      "title": "Maharsha Boys High School",
+      "location": "Johanessburg, South Africa",
+      "dateFrom": "January 2014",
+      "dateTo": "December 2014",
+      "description": [
+        "Subjects studied include: Mathematics, Life Orientation, Life Science, English, Afrikaans, Business Studies and Information Technology."
+      ]
+    }
+  ],
+  "certs": [
+    {
+      "title": "IBM AI Engeneering Professional Certificate",
+      "issuer": "IBM",
+      "date": "October 2021"
+    },
+    {
+      "title": "IBM Data Science",
+      "issuer": "IBM",
+      "date": "August 2021"
+    },
+    {
+      "title": "Google IT Support Specialization",
+      "issuer": "Google",
+      "date": "March 2021"
+    },
+    {
+      "title": "Cybersecurity Fundamentals",
+      "issuer": "University of Cape Town",
+      "date": "March 2017"
+    }
+  ],
+  "skills": [
+    "Teamwork",
+    "Problem Solving",
+    "Mentorship",
+    "Time Management"
+  ],
+  "languages": [
+    {
+      "language": "JavaScript",
+      "rating": 9
+    },
+    {
+      "language": "React Native",
+      "rating": 8.5
+    },
+    {
+      "language": "HTML",
+      "rating": 8.5
+    },
+    {
+      "language": "CSS",
+      "rating": 8.5
+    },
+    {
+      "language": "ReactJS",
+      "rating": 8
+    },
+    {
+      "language": "TypeScript",
+      "rating": 6
+    },
+    {
+      "language": "Python",
+      "rating": 5
+    },
+    {
+      "language": "Node.JS",
+      "rating": 4.5
+    }
+  ],
+  "contact": {
+    "email": "dovikaplan@gmail.com",
+    "phone": "+27 79 608 9346",
+    "github": "github.com/droidking18",
+    "linkedin": "linkedin.com/in/dovi-kaplan-03020a137/",
+    "location": "Johannesburg, South Africa"
+  }
+}
