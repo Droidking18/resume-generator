@@ -3,10 +3,23 @@
   "title": "Software Developer",
   "experiences": [
     {
+      "title": "Software Engineer",
+      "workplace": "Zepz",
+      "location": "London, United Kingdom (Remote)",
+      "dateFrom": "July 2023",
+      "description": [
+        "Work on a React Native application that is used worldwide.",
+        "Work on bug fixes, implementing new features, and journeys and general improvements, optimizations, and maintenance.",
+        "Also work on some backend services, written in Spring Boot, Java, with experience with gRPC and GraphQL.",
+        "Tools used include: Figma, React Native, GitHub, Confluence, Jira, Java, Spring Boot, gRPC, GraphQL, Github Actions, and more."
+      ]
+    },
+    {
       "title": "Software Developer",
       "workplace": "Vodacom",
       "location": "Johannesburg, South Africa",
       "dateFrom": "January 2020",
+      "dateTo": "June 2023",
       "description": [
         "Primarily responsible for the MyVodacomApp, a React Native application that is used by over 4 million users.",
         "Work on fixing bugs, implementing new features and journeys.",

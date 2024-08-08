@@ -58,7 +58,9 @@ li {
   float: right;
   position: relative;
   width: var(--sidebar-width);
-  height: 100%;
+  height: var(--page-height);
+  /* If we want height to match the height of the main content */
+  height: calc(var(--page-height) + 1in);
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #2727278c;
   color: #fff !important;
