@@ -1,9 +1,9 @@
 {
   "name": "Dovi Kaplan",
-  "title": "Software Developer",
+  "title": "Software Engineer",
   "experiences": [
     {
-      "title": "Software Engineer",
+      "title": "Mobile Software Engineer",
       "workplace": "Zepz",
       "location": "London, United Kingdom (Remote)",
       "dateFrom": "July 2023",
@@ -47,6 +47,7 @@
       "title": "University of London",
       "location": "Correspondence, United Kingdom",
       "dateFrom": "March 2021",
+      "dateTo": "September 2024",
       "description": [
         "Currently studying a BSc in Computer Science.",
         "The course is between 3 - 6 years long, at a pace chosen by the student.",
@@ -65,15 +66,6 @@
         "The course also includes a two 4 month internship, which I completed at BBD/Vodacom.",
         "The course is a mainly practical course, with a focus on learning by doing.",
         "Languages learned include: C, C++, Java, JavaScript, HTML, CSS, SQL, Bash, PHP"
-      ]
-    },
-    {
-      "title": "Maharsha Boys High School",
-      "location": "Johanessburg, South Africa",
-      "dateFrom": "January 2014",
-      "dateTo": "December 2014",
-      "description": [
-        "Subjects studied include: Mathematics, Life Orientation, Life Science, English, Afrikaans, Business Studies and Information Technology."
       ]
     }
   ],

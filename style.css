@@ -51,7 +51,7 @@ li {
   float: left;
   width: var(--main-width);
   padding: 0.25in 0.25in 0 0.25in;
-  font-size: 7pt;
+  font-size: 6pt;
 }
 
 #sidebar {
@@ -60,7 +60,7 @@ li {
   width: var(--sidebar-width);
   height: var(--page-height);
   /* If we want height to match the height of the main content */
-  height: calc(var(--page-height) + 1in);
+  height: calc(var(--page-height));
   padding: 0.6in var(--sidebar-horizontal-padding);
   background-color: #2727278c;
   color: #fff !important;
